@@ -1,5 +1,0 @@
-import { Navigate } from "react-router-dom";
-
-export const ProtectedRoute = ({ isAuth, children }) => {
-  return isAuth ? children : <Navigate to="/" replace />;
-};
